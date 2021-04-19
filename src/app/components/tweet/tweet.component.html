@@ -1,0 +1,12 @@
+<h1>{{ title }}</h1>
+<div class="row">
+    <input placeholder="app title" [(ngModel)]="title">
+</div>
+
+<div *ngFor="let tweet of tweets" class="card" style="width: 18rem;">
+    <div class="card-body">
+        <p class="card-text">{{ tweet.text }}</p>
+        <img src="{{ tweet.avatar_url }}">
+        <a href="#" class="btn btn-primary">{{ tweet.username }}</a>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+p {
+    color: crimson;
+}
+
+.card {
+    display: inline-block;
+    margin: 0.5em;
+}
+
+img {
+    border-radius: 50%;
+    margin-right: 2em;
+}
